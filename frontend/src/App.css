@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-edit, .btn-delete {
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.07rem;
+}
+
+.table > :not(caption) > * > * {
+    padding: 0.2rem 0.5rem !important;
+}
+
+.mt-5 {
+    margin-top: 4rem !important;
+}
+
+.alert {
+    --bs-alert-margin-bottom: none;
+    --bs-alert-margin-top: 3rem;
+    --bs-alert-padding-y: none;
+    position: relative;
+}
+
+.alert-light {
+    --bs-alert-padding-y: 1rem;
+}
+
+.add-alert-light {
+    --bs-alert-padding-y: 1.8rem !important;
+}
+
+.add-alert-success,
+.add-alert-danger {
+    --bs-alert-padding-y: 1rem !important;
+}
+
+.alert-success,
+.alert-danger {
+    --bs-alert-padding-y: 0.2rem;
+}
+
+.alert-light {
+    --bs-alert-bg: none;
+    --bs-alert-border-color: none;
+}
+
+ul.pagination {
+    margin-bottom: 0rem !important;
+}
+
+/* .pagination-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
+.page-item {
+    cursor: pointer;
+}
+
+.card-header h3 {
+    margin-bottom: 0;
+}
